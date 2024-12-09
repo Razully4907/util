@@ -36,6 +36,4 @@ if [ "$time_difference" -ge 15 ]; then
 
     # echo "Timestamp difference is $time_difference seconds. Executing $PYTHON_SCRIPT..."
     nohup python3 "$PYTHON_SCRIPT" $
-else
-    # echo "Timestamp difference is only $time_difference seconds. No action taken."
 fi
